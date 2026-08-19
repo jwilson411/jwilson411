@@ -1,8 +1,10 @@
 # Justin Wilson
 
-I build production AI systems: multi-agent workspaces, governed tool access, and the evaluation around them. Eighteen years shipping platforms in healthcare, insurance, and government. Right now that looks like [Rivulets](https://github.com/jwilson411/Rivulets) and daily writing at [Signal Over Noise](https://signalovernoise.tech).
+I build production AI systems: multi-agent workspaces, governed tool access, and the evaluation around them. Eighteen years shipping platforms in healthcare, insurance, and government. Right now that looks like [Rivulets](https://github.com/jwilson411/Rivulets), a local [Kokoro TTS](https://github.com/jwilson411/kokoro-tts-api) wrapper, and daily writing at [Signal Over Noise](https://signalovernoise.tech).
 
 **Rivulets** is a local-first, peer-to-peer workspace in the shape of Slack. You put humans and teams of AI agents in the same channels. Dispatch is deterministic first, LLM only when a rule misses, with handoffs and loop guards so the roster cannot talk itself in circles. It sits on [Agno AgentOS](https://github.com/agno-agi/agno). There is no hosted service. Keys stay on the machine.
+
+**kokoro-tts-api** is a FastAPI wrapper around Kokoro-82M. Text in, WAV out. Voices are allowlisted. Weights stay on disk after the first Hugging Face download. CI boots the app without pulling the model.
 
 **Signal Over Noise** is the public notebook: production AI, agent platforms, and what actually ships versus what gets announced.
 
@@ -11,6 +13,7 @@ I build production AI systems: multi-agent workspaces, governed tool access, and
 | Repo | What it proves |
 |---|---|
 | [Rivulets](https://github.com/jwilson411/Rivulets) | Local-first multi-agent workspace, dispatch, MCP, P2P sync |
+| [kokoro-tts-api](https://github.com/jwilson411/kokoro-tts-api) | Local inference behind an HTTP contract. No weights in git. |
 
 More public extracts are coming: the dispatcher as a library, a small MCP policy gateway, and system-level agent evals. The work is the record. The articles point at the repos.
 
