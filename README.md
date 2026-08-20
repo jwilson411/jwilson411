@@ -15,8 +15,8 @@ I build production AI systems: multi-agent workspaces, governed tool access, and
 | Repo | What it proves |
 |---|---|
 | [Rivulets](https://github.com/jwilson411/Rivulets) | Local-first multi-agent workspace, dispatch, MCP, P2P sync |
-| [rivulet-dispatch](https://github.com/jwilson411/rivulet-dispatch) | Testable multi-agent router. Mentions, rules, lock, loop guards. |
-| [kokoro-tts-api](https://github.com/jwilson411/kokoro-tts-api) | Local inference behind an HTTP contract. No weights in git. |
+| [rivulet-dispatch](https://github.com/jwilson411/rivulet-dispatch) [![ci](https://github.com/jwilson411/rivulet-dispatch/actions/workflows/ci.yml/badge.svg)](https://github.com/jwilson411/rivulet-dispatch/actions/workflows/ci.yml) | Testable multi-agent router. Mentions, rules, lock, loop guards. |
+| [kokoro-tts-api](https://github.com/jwilson411/kokoro-tts-api) [![ci](https://github.com/jwilson411/kokoro-tts-api/actions/workflows/ci.yml/badge.svg)](https://github.com/jwilson411/kokoro-tts-api/actions/workflows/ci.yml) | Local inference behind an HTTP contract. No weights in git. |
 
 More public extracts are coming: a small MCP policy gateway, and system-level agent evals. The work is the record. The articles point at the repos.
 
