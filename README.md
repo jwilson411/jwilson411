@@ -23,6 +23,6 @@ More public extracts are coming: a small MCP policy gateway, and system-level ag
 ## Elsewhere
 
 - Writing: [Christian Leadership](https://christianleadership.now)
-- Writing: [signalovernoise.tech](https://signalovernoise.tech)
+- Writing: [Signal Over Noise](https://signalovernoise.tech)
 - Writing: [The Vethrak Requiem](https://vethrak.com)
 - LinkedIn: [justinwilson411](https://www.linkedin.com/in/justinwilson411)
