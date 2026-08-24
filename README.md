@@ -18,6 +18,8 @@ I build production AI systems: multi-agent workspaces, governed tool access, and
 | [rivulet-dispatch](https://github.com/jwilson411/rivulet-dispatch) [![ci](https://github.com/jwilson411/rivulet-dispatch/actions/workflows/ci.yml/badge.svg)](https://github.com/jwilson411/rivulet-dispatch/actions/workflows/ci.yml) | Testable multi-agent router. Mentions, rules, lock, loop guards. |
 | [kokoro-tts-api](https://github.com/jwilson411/kokoro-tts-api) [![ci](https://github.com/jwilson411/kokoro-tts-api/actions/workflows/ci.yml/badge.svg)](https://github.com/jwilson411/kokoro-tts-api/actions/workflows/ci.yml) | Local inference behind an HTTP contract. No weights in git. |
 
+Open upstream until it merges: [agno-agi/agno#9628](https://github.com/agno-agi/agno/pull/9628) (team member messages in AgentOS session `chat_history`).
+
 More public extracts are coming: a small MCP policy gateway, and system-level agent evals. The work is the record. The articles point at the repos.
 
 ## Elsewhere
