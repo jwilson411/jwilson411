@@ -17,6 +17,12 @@ I build production AI systems: multi-agent workspaces, governed tool access, and
 | [Rivulets](https://github.com/jwilson411/Rivulets) | Local-first multi-agent workspace, dispatch, MCP, P2P sync |
 | [rivulet-dispatch](https://github.com/jwilson411/rivulet-dispatch) [![ci](https://github.com/jwilson411/rivulet-dispatch/actions/workflows/ci.yml/badge.svg)](https://github.com/jwilson411/rivulet-dispatch/actions/workflows/ci.yml) | Testable multi-agent router. Mentions, rules, lock, loop guards. |
 | [kokoro-tts-api](https://github.com/jwilson411/kokoro-tts-api) [![ci](https://github.com/jwilson411/kokoro-tts-api/actions/workflows/ci.yml/badge.svg)](https://github.com/jwilson411/kokoro-tts-api/actions/workflows/ci.yml) | Local inference behind an HTTP contract. No weights in git. |
+| [dsh-plugin-kit](https://github.com/jwilson411/dsh-plugin-kit) [![ci](https://github.com/jwilson411/dsh-plugin-kit/actions/workflows/ci.yml/badge.svg)](https://github.com/jwilson411/dsh-plugin-kit/actions/workflows/ci.yml) | Minimal tested template for DeepSeek Harness plugins. |
+| [dsh-spend-receipt](https://github.com/jwilson411/dsh-spend-receipt) [![ci](https://github.com/jwilson411/dsh-spend-receipt/actions/workflows/ci.yml/badge.svg)](https://github.com/jwilson411/dsh-spend-receipt/actions/workflows/ci.yml) | Cache-aware JSONL cost receipt. |
+| [dsh-llamacpp](https://github.com/jwilson411/dsh-llamacpp) [![ci](https://github.com/jwilson411/dsh-llamacpp/actions/workflows/ci.yml/badge.svg)](https://github.com/jwilson411/dsh-llamacpp/actions/workflows/ci.yml) | Local llama.cpp OpenAI-compat LLM adapter. |
+| [dsh-arxiv](https://github.com/jwilson411/dsh-arxiv) [![ci](https://github.com/jwilson411/dsh-arxiv/actions/workflows/ci.yml/badge.svg)](https://github.com/jwilson411/dsh-arxiv/actions/workflows/ci.yml) | Read-only arXiv search and abstract fetch. |
+| [dsh-kokoro](https://github.com/jwilson411/dsh-kokoro) [![ci](https://github.com/jwilson411/dsh-kokoro/actions/workflows/ci.yml/badge.svg)](https://github.com/jwilson411/dsh-kokoro/actions/workflows/ci.yml) | HTTP TTS client for kokoro-tts-api. No weights. |
+| [dsh-otel](https://github.com/jwilson411/dsh-otel) [![ci](https://github.com/jwilson411/dsh-otel/actions/workflows/ci.yml/badge.svg)](https://github.com/jwilson411/dsh-otel/actions/workflows/ci.yml) | OTLP spans from the session log. Export only. |
 
 Open upstream until it merges: [agno-agi/agno#9628](https://github.com/agno-agi/agno/pull/9628) (team member messages in AgentOS session `chat_history`).
 
